@@ -8,7 +8,7 @@ y1 = np.exp(-0.5*x1)
 
 # shifted gaussian
 x2 = (xx-x0-1)**2
-y2 = np.exp(-0.5**x2)
+y2 = np.exp(-0.5*x2)
 
 plt.plot(xx, y1, 'r-', xx, y2, 'b-')
 plt.legend(['f(x) = exp(-0.5*(x-5)**2)', 'f(x-1)'])
